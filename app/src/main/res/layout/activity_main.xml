@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.disablescrollwebviewex.MainActivity">
+
+    <ScrollView
+        android:id="@+id/scrollview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:padding="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_marginBottom="16dp"
+                android:textColor="@color/colorTextLink"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:text="@string/link1_text"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_marginBottom="16dp"
+                android:textColor="@color/colorTextLink"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:text="@string/link2_text"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_marginBottom="16dp"
+                android:textColor="@color/colorTextLink"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:text="@string/link3_text"
+                android:textSize="16sp" />
+
+            <WebView
+                android:id="@+id/webview"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:padding="0dp" />
+
+            <Button
+                android:layout_marginTop="8dp"
+                android:id="@+id/button1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Button1"
+                android:textSize="24sp" />
+
+            <Button
+                android:layout_marginTop="8dp"
+                android:id="@+id/button2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Button2"
+                android:textSize="24sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>
