@@ -1,5 +1,5 @@
 # DisableScrollWebViewEx
 
 WebViewの実装検証
-- 子ビューのWebViewのスクロールを抑止して全体スクロールする親画面でWebViewでスクロールできるか
-- WebViewのLayoutパラメータを動的に設定してコンテンツが最後まで読み込めるかどうか
+- 子ビューのWebViewのスクロールを抑止して全体スクロールする親画面でWebViewのスクロールができるか
+- WebViewのLayoutパラメータを動的に設定してWebViewにコンテンツが最後まで読み込めるかどうか
